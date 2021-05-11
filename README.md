@@ -1,13 +1,32 @@
-# Automated teller machine
+# Automated teller machine (ATM)
 
 ![MIT license](https://img.shields.io/cocoapods/l/AFNetworking)
 
-## Workflow
+The design function of an ATM is to perform money withdraws and deposits whenever a customer inserts a card or types its id.
+## Design steps
+1. Requirements
+2. Specifications
+3. Hardware and software functioning
+
 [Development kanban board](https://trello.com/b/DD39tJLS/atm-development-board)
 
-## Prerequisites
-- [FRDM-KL25Z](https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/freedom-development-platform-for-kinetis-kl14-kl15-kl24-kl25-mcus:FRDM-KL25Z)
-- [Keil C51](https://www.keil.com/c51/)
+## Requirements
+
+## Inputs
+
+## Outputs
+
+
+## System Function
+
+## Design Metrics
+
+## Specifications
+
+## Hardware
 
 ## Development and contribution
 - Oswaldo Hernandez | [Github](https://github.com/OSWA00) | [Twitter](https://twitter.com/oswahdez00)
+- Owen Jauregui
+- Marco Lopez
+- Luis Sanchez
