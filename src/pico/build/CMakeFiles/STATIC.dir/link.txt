@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libSTATIC.a CMakeFiles/STATIC.dir/lib/LCDI2C/LCD_I2C.c.obj
+/usr/bin/arm-none-eabi-ranlib libSTATIC.a
