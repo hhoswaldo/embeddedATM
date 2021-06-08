@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libkeySTATIC.a CMakeFiles/keySTATIC.dir/lib/LCDI2C/LCD_I2C.c.obj
+/usr/bin/arm-none-eabi-ranlib libkeySTATIC.a
