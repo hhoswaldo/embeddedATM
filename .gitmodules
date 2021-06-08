@@ -1,0 +1,9 @@
+[submodule "src/pico/lib/keypad_4x4"]
+	path = src/pico/lib/keypad_4x4
+	url = git@github.com:OSWA00/keypad_4x4.git
+[submodule "src/pico/lib/LCDI2C"]
+	path = src/pico/lib/LCDI2C
+	url = git@github.com:OSWA00/LCDI2C.git
+[submodule "src/pico/lib/picoServo"]
+	path = src/pico/lib/picoServo
+	url = git@github.com:OSWA00/picoServo.git
