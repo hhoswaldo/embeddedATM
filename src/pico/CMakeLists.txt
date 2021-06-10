@@ -13,7 +13,7 @@ pico_sdk_init()
 # Add third party libraries
 add_library(LCD_I2C STATIC lib/LCDI2C/LCD_I2C.c)
 add_library(keypad_4x4 STATIC lib/keypad_4x4/keypad_4x4.c)
-add_library(picoServo STATIC lib/picoServo/picoServo.c)
+add_library(picoServo STATIC lib/pico-servo/src/pico_servo.c)
 
 #Add executable
 add_executable (main
@@ -36,9 +36,12 @@ target_link_libraries(LCD_I2C
 
 target_link_libraries(picoServo
     pico_stdlib
-    hardware_pwm
-    hardware_clocks
     pico_time
+    hardware_irq
+    hardware_pwm
+    hardware_pll
+    hardware_clocks
+    hardware_structs
 )
 
 # Link required libraries to main

@@ -7,3 +7,6 @@
 [submodule "src/pico/lib/picoServo"]
 	path = src/pico/lib/picoServo
 	url = git@github.com:OSWA00/picoServo.git
+[submodule "src/pico/lib/pico-servo"]
+	path = src/pico/lib/pico-servo
+	url = https://github.com/irishpatrick/pico-servo.git
