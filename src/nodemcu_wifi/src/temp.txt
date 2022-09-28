@@ -1,0 +1,20 @@
+#include <Arduino.h>
+
+#include "WIFI_CONNECTION.h"
+
+const char* ssid      = "IZZI-8E07";         /* Replace with your own SSID */
+const char* password = "HERNANDEZ2019";     /* Replace with SSID's password */
+
+void i2c_init(void);
+void receive_event(int events);
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  delay(10);
+  wifi_init(ssid, password);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}

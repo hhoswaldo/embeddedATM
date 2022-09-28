@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libkeypad_4xSTATIC.a CMakeFiles/keypad_4xSTATIC.dir/lib/LCDI2C/LCD_I2C.c.obj
+/usr/bin/arm-none-eabi-ranlib libkeypad_4xSTATIC.a
